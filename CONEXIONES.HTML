@@ -11,7 +11,7 @@
 
         /* FONDO */
         body {
-            background-color: rgb(178, 236, 255);
+            background-color: rgb(175, 210, 220);
             font-family: Arial;
             margin: 0;
         }
@@ -25,7 +25,7 @@
 
         /* TÍTULO PRINCIPAL */
         .titulo {
-            color: rgb(254, 0, 0);
+            color: rgb(255, 255, 255);
             font-size: 40px;
             text-align: center;
         }
@@ -47,7 +47,7 @@
         /* SECCIONES */
         section {
             width: 80%;
-            margin: 40px auto;
+            margin: 60px auto;
             text-align: center;
         }
 
@@ -108,7 +108,7 @@
 
         /* ENLACES */
         .enlace {
-            color: #176B87;
+            color: #49595e;
             font-size: 20px;
         }
 
@@ -137,7 +137,7 @@
         </h1>
 
         <p class="subtitulo"
-           style="color: white; font-size: 18px;">
+           style="color: rgb(253, 249, 249); font-size: 18px;">
             Comunicación y transmisión de datos sin utilizar cables
         </p>
 
@@ -371,9 +371,42 @@
         </style>
 
         <img class="imagen"
-             src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80"
+             src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=50"
              alt="Tecnología inalámbrica">
 
+              <style>
+
+            .imagen {
+                width: 500px;
+                animation: mover 2s infinite;
+            }
+
+            @keyframes mover {
+
+                0% {
+                    transform: translateY(0);
+                }
+
+                50% {
+                    transform: translateY(-15px);
+                }
+
+                100% {
+                    transform: translateY(0);
+                }
+
+            }
+.imagen { 
+    width: 45%;
+    margin: 10px;
+}
+
+        </style>
+
+       <img class="imagen"
+       src="https://winxgo.com/wp-content/uploads/2025/06/Imagenes-en-HTML.png"
+       alt="HTML">
+    
     </section>
 
     <!-- CÓDIGO QR -->
